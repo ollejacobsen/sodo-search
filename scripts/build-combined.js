@@ -7,7 +7,7 @@ const fs = require('fs');
 const log = console.log;
 /* eslint-enable no-console */
 
-fs.copyFile('./public/main.css', './umd/main.css', (err) => {
+fs.copyFile('./public/main.css', './umd/sodo-search.main.css', (err) => {
     if (err) {
         throw err;
     }
